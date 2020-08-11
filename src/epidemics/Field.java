@@ -390,6 +390,38 @@ public class Field extends JPanel implements ActionListener{
         }
     }
 
+    public void setUplim(float uplim) {
+        this.uplim = uplim;
+    }
+
+    public void setSidelim(float sidelim) {
+        this.sidelim = sidelim;
+    }
+    
+    public float getUplim() {
+        return uplim;
+    }
+
+    public float getSidelim() {
+        return sidelim;
+    }
+
+    public int getSeverelim() {
+        return severelim;
+    }
+
+    public int getMildlim() {
+        return mildlim;
+    }
+
+    public int getPop() {
+        return pop;
+    }
+
+    public int getHospcap() {
+        return hospcap;
+    }
+    
     public JTextField getTf6() {
         return tf6;
     }
